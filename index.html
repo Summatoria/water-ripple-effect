@@ -4,20 +4,17 @@
     <meta charset="UTF-8">
     <title>Water Ripple Effect</title>
     <style>
-        body {
+        body, html {
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: #000;
+            height: 100%;
+            overflow: hidden;
         }
         .ripple {
-            width: 100%; /* Adjust width as needed */
-            height: 100%; /* Adjust height as needed */
-            background: url('https://github.com/Summatoria/water-ripple-effect/blob/main/StudioSummatoria_Guacamaya_Vista-1.jpg?raw=true') no-repeat center center; /* Image URL */
-            background-size: contain;
+            width: 100vw;
+            height: 100vh;
+            background: url('https://github.com/Summatoria/water-ripple-effect/blob/main/StudioSummatoria_Guacamaya_Vista-1.jpg?raw=true') no-repeat center center;
+            background-size: cover;
         }
     </style>
 </head>
